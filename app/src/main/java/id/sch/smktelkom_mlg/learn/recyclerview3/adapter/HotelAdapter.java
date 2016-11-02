@@ -72,7 +72,7 @@ public class HotelAdapter extends RecyclerView.Adapter<HotelAdapter.ViewHolder>
             itemView.setOnClickListener(new View.OnClickListener()
             {
                 @Override
-                public void onClick(View view)
+                public void onClick(View v)
                 {
                     mIHotelAdapter.doClick(getAdapterPosition());
                 }
