@@ -114,7 +114,7 @@ public class InputActivity extends AppCompatActivity
 
     private void setErrorEmpty(EditText editText)
     {
-        editText.setError(((TextInputLayout) editText.getParent().getParent())
+        editText.setError(((TextInputLayout) editText.getParent())
                 .getHint() + " Belum Diisi");
     }
 
